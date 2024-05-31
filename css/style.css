@@ -114,7 +114,8 @@ h1 {
   .inner-container{
     display: flex;
     justify-content: space-around;
-    background: red;
+    
+    padding: 0 7%;
     
   }
   .card{
