@@ -12,6 +12,7 @@ h1 {
 a {
   text-decoration: none;
 }
+/* End of rest */
 
 body {
   background-image: url(../asserts/shape.svg);
@@ -23,7 +24,6 @@ body {
 }
 .container-wrap {
   width: 1440px;
-  /* height: 100px; This was the bug test your photage if it exist or not you shoud explan it   */
   margin: 0 auto;
 }
 .navbar ul li {
@@ -58,12 +58,10 @@ header {
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #FF9F0F;
+  background-color: #ff9f0f;
   color: #fff;
   width: 174px;
-  margin-top: 38px;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); /* Added shadow */
-
+  
 }
 .btn-white {
   background-color: #fff;
@@ -73,8 +71,8 @@ header {
 .nav-link {
   font-size: 0.8125rem;
   font-weight: bold;
+  transition: border-bottom 0.3s ease; /* Add the transition effect */
 }
-
 .nav-link li {
   padding-left: 2.0625rem;
 }
@@ -84,18 +82,17 @@ header {
 }
 
 .nav-link .home-link:hover {
-  border-bottom: 3px solid #FF9F0F;
+  border-bottom: 3px solid #ff9f0f;
   padding-bottom: 5px;
 }
 
 
-
-#hero {
+.container {
   padding: 30px 2%;
   display: flex;
   justify-content: space-between;
 }
-.hero-content {
+.w-24p {
   width: 24%;
 }
 h1 {
@@ -106,17 +103,54 @@ h1 {
   margin-bottom: 1.063rem;
 }
 
-  .hero-content > p {
-    line-height: 23px;
-  }
+#hero  p {
+  line-height: 23px;
+  margin-bottom: 38px;
+}
 
+.inner-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 7%;
+}
+.card {
+  text-align: center;
+}
 
-  .inner-container{
-    display: flex;
-    justify-content: space-around;
-    background: red;
-    
-  }
-  .card{
-    text-align: center;
-  }
+#diet {
+  background-image: url(../asserts/shape-2.svg);
+  background-repeat: no-repeat;
+  height: 1080px;
+}
+.img-wrapper {
+  position: relative;
+  top: 51px;
+  left: 14px;
+}
+.py-75 {
+  padding: 75px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  margin-bottom: 5%;
+}
+.w-30 {
+  width: 30%;
+}
+.pr-12{
+  padding-right: 12%;
+}
+
+.play-button-group{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 23px;
+  width: 81%;
+}
+#diet span{
+  display: block;
+}
