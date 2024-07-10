@@ -14,11 +14,31 @@ a {
 }
 /* End of rest */
 
+/* Utilities */
+.w-24 {
+  width: 24%;
+}
+
+.py-75 {
+  padding: 75px 0; 
+}
+
+.w-30 {
+  width: 30%;
+}
+.pr-12{
+  padding-right: 12%;
+}
+
+/* End Utilities */
+
 body {
   background-image: url(../asserts/shape.svg);
   background-repeat: no-repeat;
   background-position: 82.4% 0%;
 }
+
+/* Header */
 #logo {
   display: inline-block;
 }
@@ -58,7 +78,7 @@ header {
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #ff9f0f;
+  background-color: #FF9F0F;
   color: #fff;
   width: 174px;
   
@@ -72,6 +92,7 @@ header {
   font-size: 0.8125rem;
   font-weight: bold;
   transition: border-bottom 0.3s ease; /* Add the transition effect */
+
 }
 .nav-link li {
   padding-left: 2.0625rem;
@@ -82,19 +103,16 @@ header {
 }
 
 .nav-link .home-link:hover {
-  border-bottom: 3px solid #ff9f0f;
+  border-bottom: 3px solid #FF9F0F;
   padding-bottom: 5px;
 }
-
 
 .container {
   padding: 30px 2%;
   display: flex;
   justify-content: space-between;
 }
-.w-24p {
-  width: 24%;
-}
+
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -102,55 +120,49 @@ h1 {
   line-height: 42px;
   margin-bottom: 1.063rem;
 }
-
-#hero  p {
-  line-height: 23px;
+#hero p{
   margin-bottom: 38px;
 }
+.hero-content > p {
+  line-height: 23px;
+}
 
-.inner-container {
+.inner-container{
   display: flex;
   justify-content: space-around;
   padding: 0 7%;
 }
-.card {
-  text-align: center;
+.card{
+  text-align: center; 
 }
 
-#diet {
+#diet{
   background-image: url(../asserts/shape-2.svg);
   background-repeat: no-repeat;
-  height: 1080px;
+  height: 668px;
 }
+
 .img-wrapper {
   position: relative;
   top: 51px;
   left: 14px;
 }
-.py-75 {
-  padding: 75px 0;
-}
 
-h2 {
+h2{
   font-size: 2rem;
   font-weight: 600;
   line-height: 2.25rem;
   margin-bottom: 5%;
 }
-.w-30 {
-  width: 30%;
-}
-.pr-12{
-  padding-right: 12%;
+
+#diet span{
+  display: block;
 }
 
-.play-button-group{
+.play-button-warper{
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 23px;
   width: 81%;
-}
-#diet span{
-  display: block;
 }
