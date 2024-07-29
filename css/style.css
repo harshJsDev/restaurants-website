@@ -9,6 +9,11 @@ h1 {
   font-family: "Poppins", sans-serif;
   color: #000;
 }
+
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -166,3 +171,123 @@ h2{
   margin-top: 23px;
   width: 81%;
 }
+
+/* End of section */
+
+/* start of how it works */
+
+.title-wrapper {
+  margin: 0 auto;
+  padding-bottom: 38px;
+  text-align: center;
+  width: 32%;
+}
+
+#how-it-works h2 {
+  margin-bottom: 7px; 
+}
+
+#how-it-works .card {
+  width: 20%;
+  text-align: center;
+}
+#how-it-works h3 {
+  padding: 24px 0;
+}
+/* End of how it works */
+
+
+/* start of Menu section */
+
+#menu {
+  margin-top: 82px; 
+}
+
+#menu h2 {
+  margin-bottom: 7px;
+}
+
+.menu-grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10%;
+  grid-row-gap: 52px;
+  width: 53%;
+  margin: 0 auto;
+}
+
+.item p{
+  font-size: 11px;
+}
+
+.dish-title-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.review-Group-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.add-to-cart{
+  cursor: pointer;
+}
+
+.menu-button-warper{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 85px;
+}
+
+/* End of menu */
+
+/* Start of testimonial */
+#testimonial{
+  padding-bottom: 100px;
+}
+
+.testimonial-img-wrapper{
+ text-align: center;
+ 
+}
+/* Start of contact */
+#contact-us{
+  padding-bottom: 61px;
+}
+
+#contact-us h2{
+  text-align: center;
+}
+
+.send-email-wrapper{
+text-align: center;
+}
+.text-input-email{
+  width: 20%;
+  height: 33px;
+  padding-left: 9px;
+  margin-right: 10px;
+  
+}
+footer{
+  padding-bottom: 20px;
+}
+
+.footer-wrapper{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer-col{
+  width: 25%;
+}
+
